@@ -2,9 +2,6 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  /* display: grid;
-  align-items: center;
-  justify-content: center; */
   min-height: 100vh;
   background-color: #fbb03b;
   color: #138073;
@@ -12,9 +9,6 @@ body {
 
 .main-container {
   height: 100vh;
-  /* display: grid;
-  align-items: center;
-  justify-content: center; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,6 +18,11 @@ body {
 h2 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
 }
 
 input {
@@ -44,8 +43,10 @@ input {
 h4 {
   font-size: 13px;
 }
-h4 a {
+
+em {
   text-decoration: underline;
+  font-style: normal;
 }
 
 .btn {
